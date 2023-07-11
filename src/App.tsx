@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { createGlobalStyle } from 'styled-components';
 import Home from './pages/Home';
 
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;

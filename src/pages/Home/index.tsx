@@ -1,9 +1,19 @@
 import Header from "../../components/Header";
-import { Title } from "./style";
+import Navbar from "../../components/Navbar";
+import { Container } from "./style";
+
+
+
+
 
 function Home(){
     return (
+        <Container>  
         <Header />
+        <Navbar/>
+        
+        </Container>
+      
     )
 }
 

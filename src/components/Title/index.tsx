@@ -5,15 +5,13 @@ interface IProps {
     text: string;
 }
 
-function Title({ text}: IProps) {
+function Title({ text }: IProps) {
 
     return (
        <Text>
         {text}
-
        </Text>
     )
-        
-    
 }
-export default Title
+
+export default Title;

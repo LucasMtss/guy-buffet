@@ -1,11 +1,9 @@
-import  { Container,Link } from'./style.ts'
+import  { Container, Link } from'./style.ts'
 
 function Navbar() {
 
     return (
         <Container>
-    
-        
             <Link href="#">Quem somos</Link>
             <Link href="#">Serviços</Link>
             <Link href="#">Orçamentos</Link>
@@ -13,7 +11,6 @@ function Navbar() {
             <Link href="#">Contatos</Link>
         </Container>
     )
-        
     
 }
-export default Navbar
+export default Navbar;

@@ -1,14 +1,9 @@
 
 import  { Container, Content, Text, Title } from'./style.ts'
 
-
-
 function WhoWeAre() {
-
     return (
-       
         <Container>
-
             <Content>
                 <Title>
                     Nossa história
@@ -50,7 +45,6 @@ function WhoWeAre() {
             </Content>            
         </Container>
     )
-        
-    
 }
-export default WhoWeAre
+
+export default WhoWeAre;

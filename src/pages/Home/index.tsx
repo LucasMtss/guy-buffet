@@ -5,10 +5,6 @@ import Title from "../../components/Title";
 import WhoWeAre from "../../components/WhoWeAre";
 import { Container, } from "./style";
 
-
-
-
-
 function Home(){
     return (
         <Container>  
@@ -17,7 +13,6 @@ function Home(){
         <Banner/>
         <Title text="Quem Somos"/>
         <WhoWeAre/>
-        
         </Container>
       
     )
